@@ -1,0 +1,34 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Firebase credentials
+*firebase*.json
+taste2plate-1be43-firebase-adminsdk-h69yr-d3d68155c3.json
+*.json
+
+# Credentials and keys
+*.pem
+*.key
+*credentials*.json
+
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
